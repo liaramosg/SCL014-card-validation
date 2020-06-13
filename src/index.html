@@ -2,13 +2,64 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width">
+    <title>Validador de Tarjetas Internacionales</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <!-- bienvenida, ingresar nombre y selecionar categorias -->
+    <header class="cabeza">
+      <h1>VALIDADOR DE TARJETAS DE CRÉDITO INTERNACIONALES</h1>
+    </header>
+    <div id="saludo">
+      <h2>
+      ¿Vas a viajar a otro país y quieres saber si tu Tarjeta de Crédito Internacional es válida?
+      </h2>
+      <h2>
+      Entonces, utiliza nuestro validador on-line.
+      </h2>
+    </div>
+    <div class="container">
+      <div></div>
+      <div id="caja_validador">
+        <p>VALIDADOR</p>
+        <br>
+        <form action="/action_page.php">  
+          <label for="phone">Ingrese el número de su tarjeta:</label>
+          <br>
+          <br>   
+          <input type="text" placeholder="1234 5678 9012 3456" id="number" name="number_card">
+          <br>
+          <br>   
+          <small>Ingrese solo números, sin guiones ni espacios.</small>
+          <br>
+          <br>   
+          <input type="button" id="Validation_button" value="Validar">
+        </form>  
+        <div id="verResultados">
+        <!-- Aqui llamamos al ver_Resultados -->
+          <p id="result" class="text"></p>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <div id="tipotc">
+        <img class="img" src="media/images.jpg"/>
+    </div>
+    <footer class="pie"> 
+      <ul>
+        <p>
+        "Herramienta perteneciente a Banco Internacional".
+        </p>
+        <p>
+        Programa desarrollado por Luisana Perdomo y Lía Ramos
+         <p> 
+      </ul>
+    </footer>
+    <script type="text/javascript" src="validator.js"></script>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
+
+
+
