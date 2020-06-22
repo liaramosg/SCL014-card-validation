@@ -1,5 +1,5 @@
 
-Tarjeta de Crédito Válida 
+##Tarjeta de Crédito Válida
 
 
 
@@ -10,6 +10,7 @@ Se consideró una gráfica muy austera, y la utilización de colores sobrios, co
 
 Boceto inicial a mano alzada: 
 
+![Boceto](https://github.com/liaramosg/SCL014-card-validation/blob/master/images/Boceto_inicial.jpg?raw=true)
 
 
 En un comienzo, se pensó en un producto, que permitiese validar tarjetas de crédito internacionales, a quienes viajaban al extranjero. Luego se analizó y se modificó la idea, debido a que era un poco sin sentido validar una tarjeta de crédito por su propio dueño, debido a que ya sabe de su procedencia fidedigna. Es por esto que la idea mutó a hacer una aplicación, abierta a usuarios, propietarios o encargados de negocios, tiendas o pymes, que deseen verificar la fidelidad de una tarjeta de crédito internacional, de una persona desconocida, que desea comprar o contratar con ésta, productos y/o servicios en sus dependencias.
@@ -28,7 +29,11 @@ Según lo solicitado, la interfaz permite al usuario:
 
 El prototipo final se ve de la siguiente manera: 
 
+![Prot1](https://github.com/liaramosg/SCL014-card-validation/blob/master/images/Prototipado_a.png?raw=true)
 
+![Prot2](https://github.com/liaramosg/SCL014-card-validation/blob/master/images/Prototipado_b.png?raw=true)
+
+![Prot3](https://github.com/liaramosg/SCL014-card-validation/blob/master/images/Prototipado_c.png?raw=true)
 
 
 
