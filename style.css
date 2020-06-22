@@ -1,0 +1,66 @@
+#saludo {
+  display: block;
+  margin-bottom: 5em;
+  margin-top: 8em;
+}
+#caja_validador{
+  display: block;
+  margin-bottom: 5em;
+  border-width: 2px;
+  border-style: solid;
+  font-size: larger;
+}
+#verResultados {
+  display: none;
+  margin-bottom: 5em;
+}
+#tipotc{
+  display: block;
+  margin-bottom: 8em;	
+}
+#number{
+  font-size: 100%;
+  width: 53%;
+  height: 20%;
+}
+#Validation_button{
+  font-size: 100%;
+  width: 20%;
+  height: 20%;
+}
+/* estilos */
+html{
+  background-color: rgba(255, 255, 255, 0.31);
+}
+body {
+  font-family: 'Overpass', sans-serif;
+  text-align: center;
+}
+.cabeza{
+  font-family: 'Overpass', sans-serif;
+  background: linear-gradient(0deg, rgb(226, 226, 226) 0%, rgba(0, 117, 254, 0.31) 100%);
+  background-color: rgb(175, 178, 182);
+  margin-bottom: 2em;
+  padding: 1em;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  line-height: 0.2;
+}
+.pie{
+  font-family: 'Overpass', sans-serif;
+  background: linear-gradient(0deg, rgb(226, 226, 226) 0%, rgba(0, 117, 254, 0.31) 100%);
+  background-color: rgb(175, 178, 182);
+  margin-top: 2em;
+  padding: 1em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  line-height: 0.2;
+}
+.container {
+  display: grid;
+  grid-template-columns: 4fr 3fr 4fr;
+}
