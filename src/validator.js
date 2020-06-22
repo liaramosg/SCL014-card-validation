@@ -23,10 +23,10 @@ function isValid(n_card) {
     let numeroTarjeta = n_card.split("")
     let arregloPares = [];
     let arregloImpares = [];
-    suma=0;
+    var suma=0;
     //arreglo de con 16 digitos de la tarjeta que contiene for que me permite sacar los numeros que estan en los indices pares y multiplicarlos por dos
     //numeroDeTarjeta2.toString()
-    for (i=0; i<numeroTarjeta.length;i=i+2){
+    for (var i=0; i<numeroTarjeta.length;i=i+2){
         let numerosPares = numeroTarjeta[i]*2
         if (numerosPares<10){
             arregloPares.push(numerosPares)
@@ -37,18 +37,18 @@ function isValid(n_card) {
         }
     }
     //console.log(arregloPares)
-    for (i=1; i<numeroTarjeta.length;i=i+2){
+    for (var i=1; i<numeroTarjeta.length;i=i+2){
         let numerosImpares = parseInt(numeroTarjeta[i])
         arregloImpares.push(numerosImpares)
     }
     //console.log(arregloImpares)
-    for (i=0; i<arregloPares.length; i++){
+    for (var i=0; i<arregloPares.length; i++){
         suma += arregloPares[i] + arregloImpares[i]
     }
-    console.log("SUMA= "+suma)
     if (suma%10 == 0) {
         return "La tarjeta es valida"
     }   else {
         return "La tarjeta es invalida"
     }
 }
+
